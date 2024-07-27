@@ -1,0 +1,17 @@
+{
+  "name": "my-next-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"node server.js\"",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "concurrently": "^6.2.0"
+  }
+}
